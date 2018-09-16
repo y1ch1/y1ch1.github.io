@@ -1,0 +1,16 @@
+<div class="fl-btm-btn">
+  <a href="#">
+    <div class="btm-btn go-to-top">
+      <span><i class="fa fa-angle-up fa-sm"></i></span>
+    </div>
+  </a>
+</div>
+
+<footer class="footer">
+  {% for item in site.data.settings.social %}
+    <a href="{{ item.link }}" class="menu-link" target="_blank">
+      <i class="{{ item.type }} fa-{{ item.icon }}" aria-hidden="true"></i>
+    </a>
+  {% endfor %}
+  <div class="post-date"><a href="{{ site.github.url }}/">{{ site.url_public }} | (c) 2018-present {{ site.author }}</a></div>
+</footer>

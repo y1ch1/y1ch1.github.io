@@ -1,0 +1,25 @@
+comments:
+  title: "Comments"
+  enabled: true
+  data_uid: 'MTAyMC8zOTU1NS8xNjA4Mg=='
+
+tracking:
+  ga_id: "UA-125386975-1"
+
+menu:
+
+# Available social icons are powered by Font Awesome, so you can use any icon that they offer
+social:
+- {type: 'fab', icon: 'twitter', link: 'https://twitter.com/y1ch1z'}
+- {type: 'fab', icon: 'facebook', link: 'https://www.facebook.com/krazi.mao'}
+- {type: 'fab', icon: 'instagram', link: 'https://instagram.com/y1ch1'}
+- {type: 'fa', icon: 'envelope', link: 'mailto:yichiandscratchy@gmail.com'}
+
+# Customize site text
+pagination:
+  next_page: 'Newer'
+  previous_page: 'Older'
+
+sharing_button_prompt: 'Share'
+
+related_posts: 'Related posts'

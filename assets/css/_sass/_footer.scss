@@ -1,0 +1,41 @@
+.fl-btm-btn {
+  position: fixed;
+  bottom: 48px;
+  right: 24px;
+  z-index: 2000;
+}
+.btm-btn {
+  width: 2em;
+  height: 2em;
+  border: 1px solid $gray-color;
+  color: $gray-color;
+  border-radius: 0.3em;
+  background-color: white;
+  opacity: 1;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.footer {
+  background: white;
+  color: $brand-color;
+  text-align: center;
+  min-height: 56px;
+  line-height: 45px;
+  width: 100%;
+}
+.footer a {
+  color: $brand-color;
+  padding: 0px 10px 0px;
+  text-decoration: none;
+}
+@media (max-width: $container-width) {
+  .footer {
+    background: white;
+    color: $brand-color;
+    text-align: center;
+    min-height: 56px;
+    line-height: 45px;
+    width: 95vw;
+  }
+}
