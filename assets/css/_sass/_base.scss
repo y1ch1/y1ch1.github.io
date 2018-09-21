@@ -88,33 +88,7 @@ dd {
 */
 
 a {
-  position: relative;
   color: $link-color-orig;
-  text-decoration: none !important;
-}
-
-.posts-wrapper a {
-  position: relative;
-  color: $link-color-orig;
-  text-decoration: underline !important;
-  
-  &::after {
-    content: "";
-    background: $link-color-orig;
-    mix-blend-mode: exclusion;
-    width: calc(100% + 6px);
-    height: 0;
-    position: absolute;
-    bottom: -3px;
-    left: -3px;
-  }
-  &:hover {
-    color: $link-color-hover;
-    text-decoration: none !important;
-  }
-  &:hover::after {
-    height: calc(100% + 6px)
-  }
 }
 
 /*
