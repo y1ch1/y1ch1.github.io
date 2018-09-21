@@ -11,7 +11,7 @@ menu:
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
 - {type: 'fab', icon: 'twitter', link: 'https://twitter.com/y1ch1z'}
-- {type: 'fab', icon: 'facebook', link: 'https://www.facebook.com/krazi.mao'}
+- {type: 'fab', icon: 'facebook', link: 'https://www.facebook.com/y1ch1z'}
 - {type: 'fab', icon: 'instagram', link: 'https://instagram.com/y1ch1'}
 - {type: 'fa', icon: 'envelope', link: 'mailto:yichiandscratchy@gmail.com'}
 
